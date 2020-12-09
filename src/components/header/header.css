@@ -1,0 +1,27 @@
+.header.navbar {
+	padding-top: 0.5rem;
+	padding-bottom: 0.5rem;
+	padding-left: 0;
+}
+
+.header .nav-link {
+	text-transform: capitalize;
+	font-size: 1.125rem;
+	color: rgb(32, 203, 152, 0.6) !important;
+	transition: all 0.3s;
+}
+
+.header .nav-link.active {
+	color: rgb(32, 203, 152) !important;
+}
+
+.header .nav-link:hover,
+.header .nav-link:focus {
+	color: rgb(32, 203, 152) !important;
+}
+
+.header .logo {
+	color: #fff !important;
+	font-size: 2rem;
+	font-weight: 600;
+}

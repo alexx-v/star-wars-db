@@ -1,0 +1,25 @@
+.item-details {
+	display: flex;
+	flex-direction: row;
+	padding: 1rem;
+}
+
+@media (max-width: 576px) {
+	.item-details {
+		flex-direction: column;
+	}
+}
+
+.item-details img {
+	width: 100%;
+	max-width: 200px;
+	border-radius: 5px;
+}
+
+.item-details .list-group-item {
+	padding: 0.25rem;
+}
+
+.item-details .list-group-item .term {
+	margin-left: 0.5rem;
+}
