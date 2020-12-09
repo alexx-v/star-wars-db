@@ -16,7 +16,7 @@ const App = () => {
 	return (
 		<ErrBoundary>
 			<Container fluid='lg' className='app'>
-				<Router>
+				<Router basename='/star-wars-db/'>
 					<Header />
 
 					<RandomPlanet />
